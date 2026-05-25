@@ -28,7 +28,7 @@ public class AIAgent {
                 .defaultAdvisors(
                         MessageChatMemoryAdvisor.builder(memory).build()
                 )
-                .defaultTools(bankingTools) // 🔥 IMPORTANT : active les tools
+                .defaultTools(bankingTools) 
                 .build();
     }
 
